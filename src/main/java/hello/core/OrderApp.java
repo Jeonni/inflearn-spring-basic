@@ -22,7 +22,7 @@ public class OrderApp {
         Member member = new Member(memberId, "member1", Grade.VIP);
         memberService.join(member);
 
-        Order order = orderService.createOrder(memberId, "item1", 10000);
+        Order order = orderService.createOrder(memberId, "item1", 20000);
 
         System.out.println("order = " + order);
     }
